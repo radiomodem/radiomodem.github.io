@@ -5,7 +5,6 @@
  |_| |_|\__,_|_| |_| |_|\__,_|_| |_|___(_)__/_/\_\\__|
                                                       
 
-
 /* TEAM */
 Kasper Kronborg Isager:
 	Twitter: @kasperisager
@@ -13,7 +12,8 @@ Kasper Kronborg Isager:
 	Site: https://github.com/kasperisager
 	Location: Copenhagen, Denmark
 
+
 /* SITE */
 Standards: HTML5, CSS4, ES6, WAI-ARIA, WebAudio
 Components: jQuery, Normalize.css, Ionicons, Require.js
-Software: vim, Node.js, gulp.js, Metalsmith
+Software: Atom, Node.js, gulp.js, Metalsmith
