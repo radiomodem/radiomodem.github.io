@@ -6,5 +6,9 @@
                                                       
 
 /* TEAM */
+Kasper Kronborg Isager <kasperisager@gmail.com> (github.com/kasperisager)
 
 /* SITE */
+Standards: HTML5, CSS4, ES6, WAI-ARIA, WebAudio
+Components: jQuery, Normalize.css, Ionicons, Require.js
+Software: Atom, Node.js, gulp.js, Metalsmith
