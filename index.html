@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Online radio by the students of the IT University of Copenhagen">
 
     <title>Modem</title>
 
@@ -16,27 +17,27 @@
   <body>
 
 
-<nav class="navbar navbar--inverse navbar-static-top" role="navigation">
+<nav class="navbar navbar--inverse navbar-static-top">
   <div class="container">
-    <nav class="nav navbar-nav" role="navigation">
+    <div class="nav navbar-nav">
       <a class="nav-link" href="/">Modem</a>
-    </nav>
+    </div>
 
-    <nav class="nav navbar-nav navbar-right" role="navigation">
+    <div class="nav navbar-nav navbar-right">
       <a class="nav-link" href="/about">About</a>
-      <!-- <a class="nav-link" href="/schedule">Schedule</a> -->
-    </nav>
+    </div>
   </div>
 </nav>
 
 
 
-<main class="u-display-flex u-display-flex--column" role="main">
-  <header class="masthead u-flex u-text-center" role="banner">
+<main class="u-display-flex u-display-flex--column">
+  <header class="masthead u-flex u-text-center">
     <div class="container">
-      <a href="/">
-        <img alt="Modem" src="/img/logo.svg" width="200" height="200">
-      </a>
+      <h1 class="u-flush">
+        <img alt="Modem logo" src="/img/logo.svg" width="200" height="200">
+        <span class="u-sr-only">Modem</span>
+      </h1>
     </div>
 
     <div class="masthead-fill">
@@ -55,15 +56,16 @@
   </header>
 </main>
 
-<div class="slide-in slide-in--right" id="slide-in" data-slide-in>
-  <header class="slide-in-header" role="banner">
+<aside class="slide-in slide-in--right" id="slide-in" data-slide-in>
+  <div class="slide-in-header">
     <h4>The Modem Chat</h4>
     <button class="slide-in-close" type="button" data-slide-in-close>
-      <i class="ion-close"></i>
+      <span class="ion-close" aria-hidden="true"></span>
+      <span class="u-sr-only">Close</span>
     </button>
-  </header>
+  </div>
 
-  <section class="slide-in-content">
+  <div class="slide-in-content">
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {
@@ -79,26 +81,26 @@
         (d.head || d.body).appendChild(s);
       })();
     </script>
-  </section>
-</div>
+  </div>
+</aside>
 
 
-    <footer class="footer u-flush--top" role="contentinfo">
+    <footer class="footer u-flush--top">
       <div class="container">
         <div class="row">
           <div class="column u-compact">
-            <p><b>Copyright &copy; 2017 Modem</b></p>
+            <p><strong>Copyright &copy; 2017 Modem</strong></p>
           </div>
 
           <div class="column u-compact u-text-right">
             <ul class="u-inline-list">
               <li><a href="https://www.mixcloud.com/RadioModem" class="u-click-target">Podcasts</a></li>
-              <li><a href="https://www.facebook.com/RadioModem" class="u-click-target"><i class="ion-social-facebook"></i><span class="u-sr-only">Facebook</span></a></li>
-              <li><a href="https://twitter.com/ModemITU" class="u-click-target"><i class="ion-social-twitter"></i><span class="u-sr-only">Twitter</span></a></li>
-              <li><a href="https://www.instagram.com/radiomodem" class="u-click-target"><i class="ion-social-instagram"></i><span class="u-sr-only">Instagram</span></a></li>
-              <li><a href="https://github.com/radiomodem" class="u-click-target"><i class="ion-social-github"></i><span class="u-sr-only">GitHub</span></a></li>
+              <li><a href="https://www.facebook.com/RadioModem" class="u-click-target"><span class="ion-social-facebook" aria-hidden="true"></span><span class="u-sr-only">Facebook</span></a></li>
+              <li><a href="https://twitter.com/ModemITU" class="u-click-target"><span class="ion-social-twitter" aria-hidden="true"></span><span class="u-sr-only">Twitter</span></a></li>
+              <li><a href="https://www.instagram.com/radiomodem" class="u-click-target"><span class="ion-social-instagram" aria-hidden="true"></span><span class="u-sr-only">Instagram</span></a></li>
+              <li><a href="https://github.com/radiomodem" class="u-click-target"><span class="ion-social-github" aria-hidden="true"></span><span class="u-sr-only">GitHub</span></a></li>
               <li>&middot;</li>
-              <li><a href="https://github.com/radiomodem">We <i class="ion-heart" style="color: #ff4136"></i> Open Source</a></li>
+              <li><a href="https://github.com/radiomodem">We <span class="ion-heart" style="color: #ff4136" aria-hidden="true"></span><span class="u-sr-only">Love</span> Open Source</a></li>
             </ul>
           </div>
         </div>
